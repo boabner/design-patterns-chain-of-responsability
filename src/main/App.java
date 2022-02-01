@@ -2,19 +2,19 @@ package main;
 
 import java.math.BigDecimal;
 
-import imposto.CalculadoraImpostos;
-import imposto.ISS;
-import orcamentoVenda.Orcamento;
+import desconto.CalculadoraDescontos;
+import orcamento.Orcamento;
 
 public class App {
 
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal("100"));
-        CalculadoraImpostos calculadora = new CalculadoraImpostos();
+        Orcamento primeiroOrcamento = new Orcamento(new BigDecimal("100"), 6);
+        Orcamento segundoOrcamento = new Orcamento(new BigDecimal("600"), 6);
 
-        BigDecimal valor = calculadora.calcular(orcamento, new ISS());
+        CalculadoraDescontos calculadora = new CalculadoraDescontos();
 
-        System.out.println(valor);
+        System.out.println(calculadora.calcular(primeiroOrcamento));
+        System.out.println(calculadora.calcular(segundoOrcamento));
     }
 
 }
