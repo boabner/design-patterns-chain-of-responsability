@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831ca41c-d6c3-4ded-a441-b06c8ddd6824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/desconto/CalculadoraDescontos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desconto/Desconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desconto/DescontoQuantidadeItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desconto/DescontoValorItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desconto/SemDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imposto/CalculadoraImpostos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imposto/ICMS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imposto/ISS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imposto/Imposto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/orcamentoVenda/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/orcamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desconto/CalculadoraDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desconto/CalculadoraDescontos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +25,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="24UNibmCYhTyiuV7EmcEYLrEApP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
